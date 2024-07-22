@@ -1,0 +1,159 @@
+// for search section
+
+.TokcommentHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 40vh;
+
+    .TChead {
+        h3 {
+            font-weight: bold;
+            color: #1a1919a9;
+            font-size: 40px;
+        }
+    }
+
+    .TCinput {
+        display: flex;
+        flex-direction: column;
+
+        #Tcinp {
+            border: none;
+            outline: none;
+            width: 100%;
+            padding: 5px;
+            border-radius: 10px;
+            color: #1a1919d7;
+        }
+
+        #Tcbtn {
+            border: none;
+            color: #ffff;
+            background-color: #1a191963;
+            padding: 5px;
+            border-radius: 10px;
+            margin: 10px;
+            font-weight: 500;
+        }
+    }
+}
+
+//main card 
+
+.commentcards {
+    display: flex;
+    justify-content: center;
+
+    .MainCard {
+        box-shadow: 2px 3px 6px rgba(36, 36, 36, 0.973);
+        margin: 40px;
+        width: 80%;
+
+        .mcrd {
+            background-color: #1a191948;
+
+            .cardTop {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 5px 10px;
+                // background-color: #1a191963;
+
+                .CTBTN {
+                    #CTBTN {
+                        border: none;
+                        color: #ffff;
+                        background-color: #1a191998;
+                        padding: 5px;
+                        border-radius: 10px;
+                        font-weight: 400;
+                    }
+                }
+            }
+
+            .scndCard {
+                padding: 20px 0px;
+
+                .innercard {
+                    padding: 10px;
+                    box-shadow: 2px 3px 6px rgba(66, 65, 65, 0.959);
+                    background-color: #312f2f79;
+                    color: #c4bfbf;
+
+                    #rply {
+                        padding-top: 10px;
+                    }
+
+                    .profilesection {
+                        .profileName {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+
+                            .pfl {
+                                display: flex;
+                                align-items: center;
+
+                                .profile {
+                                    width: 40px;
+                                    border-radius: 100px;
+                                }
+
+                                h5 {
+                                    padding: 5px;
+                                    font-size: 18px;
+                                    // color: #1a1919c7;
+                                    font-weight: 500;
+                                }
+                            }
+
+                        }
+
+                        .comment {
+                            padding: 5px;
+                            margin: 5px 0px;
+                            border: 1px solid rgba(46, 45, 45, 0.884);
+                        }
+
+                    }
+
+                    .replysection {
+                        padding: 10px;
+
+                        .profileName {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+
+                            .pfl {
+                                display: flex;
+                                align-items: center;
+
+                                .profile {
+                                    width: 40px;
+                                    border-radius: 100px;
+                                }
+
+                                h5 {
+                                    padding: 5px;
+                                    font-size: 18px;
+                                    // color: #1a1919c7;
+                                    font-weight: 500;
+                                }
+                            }
+
+                        }
+
+                        .comment {
+                            padding: 5px;
+                            margin: 5px 0px;
+                            border: 1px solid rgba(46, 45, 45, 0.884);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
